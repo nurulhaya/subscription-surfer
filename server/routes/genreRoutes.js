@@ -18,10 +18,9 @@ router.route('/').get(async (req, res) => {
 });
 router.route('/:genre_id').get(async (req, res) => {
   try {
-    const {genreID} = req.params;
     const genresList = await db.Genres.findOne({
       where: {
-        genre_id: `${genreID}`
+        genre_id: req.params.genre_id
       }
     });
     res.json({data: genresList});
