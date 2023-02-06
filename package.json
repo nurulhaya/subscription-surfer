@@ -1,0 +1,28 @@
+{
+  "name": "subscription-surfer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nurulhaya/subscription-surfer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nurulhaya/subscription-surfer/issues"
+  },
+  "homepage": "https://github.com/nurulhaya/subscription-surfer#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.1.0",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.28.0",
+    "validator": "^13.9.0"
+  }
+}
